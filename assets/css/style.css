@@ -1,0 +1,74 @@
+ /*-- Kit Chan
+Coding Bootcamp UT-Austin
+Oct 2016
+Assignment week-5-trivia game*/
+ 
+ body {
+     background-image: url("../images/iur-2.jpeg") !important;
+     margin: 20px;
+     text-align: center;
+     opacity: 1.0;
+ }
+ 
+ h1 {
+     width: 568px;
+     height: 60px;
+     margin: 50px 25%;
+     font-weight: bold;
+     color: #F70D1A;
+     background-color: white;
+     text-align: center;
+ }
+ 
+ h2 {
+     color: black;
+     text-align: center;
+     font-size: 36px;
+     background-color: red;
+     opacity: 0.9;
+ }
+ 
+ h3 {
+     color: blue;
+     font-size: 32px;
+     text-align: center;
+     margin: 30px;
+     font-weight: bold;
+     background-color: yellow;
+ }
+ 
+ #startMe,
+ .resetMe {
+     border-radius: 80%;
+     font-size: 30px;
+     font-weight: bold;
+     background-color: #F62217;
+     color: white;
+     padding: 20px 30px 20px 30px;
+ }
+ 
+ #timerShow {
+     font-size: 40px;
+     font-weight: bold;
+     background-color: white;
+ }
+ 
+ #question {
+     margin: 20px;
+     font-size: 50px;
+ }
+ 
+ #score {
+     font-size: 30px;
+     font-weight: bold;
+     margin: 15px;
+     background-image: url("../images/result.jpeg")
+ }
+ 
+ #button0,
+ #button1,
+ #button2,
+ #button3 {
+     margin: 10px;
+     text-align: center;
+ }
